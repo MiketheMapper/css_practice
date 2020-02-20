@@ -1,0 +1,21 @@
+h1{
+    font-family: helvetica;
+    color: #f00;
+    font-size: 40px;
+    text-transform: uppercase
+    
+    
+    
+    
+    
+}
+
+p{
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+#hero{
+    background: #ddd;
+}
