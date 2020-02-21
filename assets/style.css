@@ -2,12 +2,9 @@ h1{
     font-family: helvetica;
     color: #f00;
     font-size: 40px;
-    text-transform: uppercase
-    
-    
-    
-    
-    
+    text-transform: uppercase;
+    text-align:center;
+    text-shadow: 10px 10px 10px rgba(0,0,0,.5);
 }
 
 p{
@@ -18,4 +15,18 @@ p{
 
 #hero{
     background: #ddd;
+    border:5px double #f00;
+    border-radius: 10px; 
+    box-shadow: : 10px 10px 10px 10px
+    rgba(0,0,0,.5);
+/*    border:-top: none;*/
+}
+
+div{
+/*    width: 500px;*/
+   width: 75%;
+    min-width: 400px;
+    max-width;800px;
+   margin: 10px auto;
+    padding: 30px;
 }
