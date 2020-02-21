@@ -3,8 +3,37 @@
     <head>
      <title>css test</title>
         <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .colcontainer{
+            margin:0 auto;
+            padding: 0;
+            
+        }
+        .col{
+            width: 200px;
+            padding: 0;
+            display:inline-block;
+            border: 1px solid black;
+            vertical-align: top; 
+/*vertical align only can be used for in-line element           
+in html any space more than one is still on space*/
+            height: 200px;
+        }
+        
+        .hidethis{
+            display: none;
+        }
+    </style>
     </head>
     <body>
+        <div class = "colcontainer">
+          <div class="col">
+             <h2>column</h2>
+          </div><div  class ="col">
+             <h2>column</h2>
+             <p>this <i>is</i> <b id="hidethis">text</b></p>
+          </div>
+        </div>
        <div>
         <h1>logo</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
